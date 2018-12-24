@@ -1,35 +1,9 @@
 ## 代码标准
 
-### 项目结构解耦
-
-以下项目名仅做示例理解，名字可以改
+### 目录结构
 
 ```
-|----- pro
-   |----- index(page)
-      |----- component
-         |----- header
-         |----- body
-         |----- footer
-         ...
-      |----- webapi.js (组件ajax)
-      |----- index.js (主文件)
-      |----- eFun.js (所有的事件方法)
-      |----- public  
-         |----- css
-            |-----  animation.css
-         |----- iamges
-         |----- js
-            |----- animation.js
-            |----- anyOther.js
-         ...
-   |----- utils
-      |----- eAlerts.js
-   |----- public
-      |----- css
-         |----- public.css
-      |----- images   
-   ... balabala         
+|----- pro       
 ```
 
 ### 代码解耦
